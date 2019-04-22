@@ -1,0 +1,70 @@
+
+<!-- Portfolio Modals -->
+{% for post in site.posts %}
+<div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog"
+  aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+        <!-- <div class="col-lg-8 col-lg-offset-2"> -->
+          <div class="modal-body">
+            <h2>{{ post.title }}</h2>
+            <hr class="star-primary">
+            <div>
+              <div class="flexslider flex-design">
+                <ul class="slides">
+                  {% for image in site.static_files %}
+                    {% if image.path contains 'img/slider/{{ post.title }}' %}
+                    <li data-thumb="{{ page.image-slider }}">
+                      <a href="{{ site.url}}{{ page.permalink }}">
+                          <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+                        <hr>
+                        <p class="flex-caption-title">{{ page.title }}</p>
+                        <p class="flex-caption">{{ page.excerpt }}</p>
+                      </a>
+                    </li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+            <!-- <img src="img/portfolio/{{ post.img }}" class="d-block w-100" alt="{{ post.alt }}"> -->
+            <!-- {% for image in site.static_files %}
+                {% if image.path contains 'images/slider' %}
+                    <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+                {% endif %}
+            {% endfor %} -->
+                  
+            
+            
+            <p>{{ post.description }}</p>
+            <ul class="list-inline item-details">
+              <li>Client:
+                <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                </strong>
+              </li>
+              <li>Date:
+                <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                </strong>
+              </li>
+              <li>Service:
+                <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

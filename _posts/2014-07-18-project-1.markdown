@@ -1,0 +1,15 @@
+---
+title: vright
+subtitle: Website Publishing
+layout: default
+modal-id: 1
+date: 2018-01-01
+img: vright.jpg
+thumbnail: vright-thumbnail.jpg
+alt: image-alt
+project-date: January 2018
+client: KT & GS
+category: Web Development
+description: VRIGHT 사이트 구축<br>web/mobile 퍼블리싱<br>HTML, CSS, Javascript
+
+---

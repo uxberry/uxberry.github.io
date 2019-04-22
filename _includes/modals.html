@@ -21,29 +21,21 @@
               <div class="flexslider flex-design">
                 <ul class="slides">
                   {% for image in site.static_files %}
-                    {% if image.path contains 'img/slider/{{ post.title }}' %}
-                    <li data-thumb="{{ page.image-slider }}">
-                      <a href="{{ site.url}}{{ page.permalink }}">
-                          <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-                        <hr>
-                        <p class="flex-caption-title">{{ page.title }}</p>
-                        <p class="flex-caption">{{ page.excerpt }}</p>
-                      </a>
-                    </li>
+                    {% if image.path contains {{post.title}} %}
+                    <!-- <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt=""> -->
+                      <li data-thumb="{{ page.image-slider }}">
+                        <a href="{{ site.url}}{{ page.permalink }}">
+                            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+                          <hr>
+                          <p class="flex-caption-title">{{ page.title }}</p>
+                          <p class="flex-caption">{{ page.excerpt }}</p>
+                        </a>
+                      </li>
                     {% endif %}
                   {% endfor %}
                 </ul>
               </div>
             </div>
-            <!-- <img src="img/portfolio/{{ post.img }}" class="d-block w-100" alt="{{ post.alt }}"> -->
-            <!-- {% for image in site.static_files %}
-                {% if image.path contains 'images/slider' %}
-                    <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-                {% endif %}
-            {% endfor %} -->
-                  
-            
-            
             <p>{{ post.description }}</p>
             <ul class="list-inline item-details">
               <li>Client:

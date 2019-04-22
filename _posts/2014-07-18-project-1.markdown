@@ -4,8 +4,7 @@ subtitle: Website Publishing
 layout: default
 modal-id: 1
 date: 2018-01-01
-img: vright.jpg
-thumbnail: vright-thumbnail.jpg
+thumbnail: vright.jpg
 alt: image-alt
 project-date: January 2018
 client: KT & GS

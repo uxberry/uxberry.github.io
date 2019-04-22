@@ -1,15 +1,14 @@
 ---
-title: Startup Framework
-subtitle: Website Design
+title: lancome
+subtitle: Website Publishing
 layout: default
 modal-id: 5
-date: 2014-07-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
+date: 2014-07-15
+thumbnail: lancome.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: August 2017
+client: Lancome KOREA
+category: Web Management
+description: Lancome Korea 사이트 현지화<br>CMS, JIRA<br>HTML, CSS, CMS, Google Analystics
 
 ---

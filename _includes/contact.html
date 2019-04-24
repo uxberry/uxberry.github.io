@@ -29,7 +29,7 @@
             </div>
             <div class="col-md-6">
               <div class="control-group form-group">
-                <textarea name="message" class="form-control" placeholder="Your Message *" id="message" required
+                <textarea class="form-control" placeholder="Your Message *" id="message" required
                   data-validation-required-message="Please enter a message."></textarea>
                 <p class="help-block text-danger"></p>
               </div>
@@ -37,11 +37,13 @@
             <div class="clearfix"></div>
             <div class="col-lg-12 text-center">
               <div id="success"></div>
-                <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
-                <input type='submit' value='Test form' />
                 
-                <button type="submit" class="btn btn-xl">Send Message</button>
-            </div>
+                <!-- <button type="submit" class="btn btn-xl">Send Message</button> -->
+              </div>
+              <form action="https://getsimpleform.com/messages?form_api_token=eb16118f192f521972824d4423010a70" method="post" class="form-inline">
+                <input type="text" name="name" placeholder="Enter your name" class="form-control">
+                <button type="submit" class="btn btn-primary">Submit test message</button>
+              </form>
           </div>
         </form>
       </div>

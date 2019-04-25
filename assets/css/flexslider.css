@@ -268,7 +268,12 @@ html[xmlns] .flexslider .slides {
 /* ====================================================================================================================
  * RESPONSIVE
  * ====================================================================================================================*/
-@media screen and (max-width: 860px) {
+ @media screen and (max-width: 320px) {
+  .flex-direction-nav a:before {font-size:32px!important;;}
+  .flex-direction-nav .flex-next {right:-30px!important;}
+  .flex-direction-nav .flex-prev {left:-30px!important;;}
+}
+ @media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 10px;

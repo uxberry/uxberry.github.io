@@ -7,8 +7,8 @@ date: 2016-09-15
 thumbnail: post4.jpg
 alt: image-alt
 project-date: April 2017
-client: Clarins KOREA
+client: Addiction KOREA
 category: Web Management
-description: Clarins Korea 사이트 현지화<br>CMS, JIRA<br>HTML, CSS, CMS, Google Analystics
+description: Addiction Korea 사이트 현지화<br>CMS, JIRA<br>HTML, CSS, CMS, Google Analystics
 
 ---

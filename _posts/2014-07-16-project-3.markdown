@@ -4,7 +4,7 @@ subtitle: Website Publishing
 layout: default
 modal-id: 3
 date: 2014-07-16
-thumbnail: kiosk.jpg
+thumbnail: post3.jpg
 alt: image-alt
 project-date: August 2018
 client: KT

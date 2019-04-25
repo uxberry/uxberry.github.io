@@ -2,9 +2,9 @@
 title: vright
 subtitle: Website Publishing
 layout: default
-modal-id: 1
-date: 2018-01-01
-thumbnail: vright.jpg
+modal-id: 2
+date: 2018-04-25
+thumbnail: post2.jpg
 alt: image-alt
 project-date: January 2018
 client: KT & GS

@@ -4,7 +4,7 @@ subtitle: Website Publishing
 layout: default
 modal-id: 5
 date: 2014-07-15
-thumbnail: lancome.jpg
+thumbnail: post5.jpg
 alt: image-alt
 project-date: August 2017
 client: Lancome KOREA

@@ -4,7 +4,7 @@ subtitle: Website Publishing
 layout: default
 modal-id: 4
 date: 2014-07-15
-thumbnail: addiction.jpg
+thumbnail: post4.jpg
 alt: image-alt
 project-date: April 2017
 client: Clarins KOREA

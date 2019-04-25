@@ -1,0 +1,15 @@
+---
+title: clarins
+subtitle: Website Management
+layout: default
+modal-id: 8
+date: 2019-01-24
+thumbnail: post8.jpg
+alt: image-alt
+project-date: August 2017
+client: CLARINS Korea
+caategory: Web Management
+description: CLARINS Korea 콘텐츠 현지화<br>web 퍼블리싱<br>CMS, JIRA, HTML, CSS
+
+
+---

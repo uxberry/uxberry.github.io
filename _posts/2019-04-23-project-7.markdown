@@ -2,14 +2,14 @@
 title: globalroaming
 subtitle: Website Publishing
 layout: default
-modal-id: 6
-date: 2014-07-15
-thumbnail: post6.jpg
+modal-id: 7
+date: 2019-02-23
+thumbnail: post7.jpg
 alt: image-alt
 project-date: August 2017
 client: KT
 caategory: Web Publishing
-description: KT Roaming 사이트 운영<br>web 퍼블리싱<br>HTML, CSS, Javascript
+description: KT Globalroaming 사이트 운영<br>web 퍼블리싱<br>HTML, CSS, Javascript
 
 
 ---

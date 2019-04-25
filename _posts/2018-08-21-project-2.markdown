@@ -2,9 +2,9 @@
 title: posco
 subtitle: Website Publishing
 layout: default
-modal-id: 2
-date: 2018-08-21
-thumbnail: posco.jpg
+modal-id: 1
+date: 2019-04-21
+thumbnail: post1.jpg
 alt: image-alt
 project-date: August 2018
 client: Posco

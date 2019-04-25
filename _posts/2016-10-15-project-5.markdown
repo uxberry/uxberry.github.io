@@ -3,7 +3,7 @@ title: lancome
 subtitle: Website Publishing
 layout: default
 modal-id: 5
-date: 2014-07-15
+date: 2016-10-15
 thumbnail: post5.jpg
 alt: image-alt
 project-date: August 2017
